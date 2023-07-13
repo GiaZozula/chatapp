@@ -1,16 +1,15 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {getAuth, signInAnonymously} from 'firebase/auth';
 
+
 const Chat = () => {
-    const [userId, setUserId] = useState('');
 
-
-    const signInAnonymously = async () => {
-        try {
-            const auth = getAuth();
-        }
-    }
-
+    return (
+        <div>
+            <h1>Chat</h1>
+        </div>
+    );
 };
+
 
 export default Chat;
