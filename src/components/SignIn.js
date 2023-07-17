@@ -11,7 +11,7 @@ const SignIn = () => {
       const user = userCredential.user;
       //set id in state
       setUserId(user.uid);
-      console.log(user.uid);
+      console.log(userId);
     } catch (error) {
       console.log("error sign in", error);
     }

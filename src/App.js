@@ -16,7 +16,8 @@ const App = () => {
         <Route path="/chat" component={Chat} />
         <Link to="/chat">Chat</Link>
       </Router> */}
-      <SignIn />
+      {/* <SignIn /> */}
+      <Chat />
     </div>
   );
 };
